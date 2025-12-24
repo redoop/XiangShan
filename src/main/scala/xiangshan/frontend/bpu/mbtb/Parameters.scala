@@ -21,7 +21,7 @@ import xiangshan.frontend.bpu.HasBpuParameters
 
 case class MainBtbParameters(
     NumEntries: Int = 8192,
-    NumWay:     Int = 4,
+    NumWay:     Int = 16,
     // Lowest level banks, each bank is a physical SRAM
     // This banking is used to resolve read-write conflicts and reduce SRAM power
     NumInternalBanks: Int = 4,
